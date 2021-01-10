@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>Confirmation - Bitcoin Wiki</title>
+<script type="982e9c57d71973a0930136e2-text/javascript">document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script type="982e9c57d71973a0930136e2-text/javascript">(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Confirmation","wgTitle":"Confirmation","wgCurRevisionId":65088,"wgRevisionId":65088,"wgArticleId":391,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Technical"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Confirmation","wgRelevantArticleId":391,"wgRequestId":"766514230e4c9f05eca4f699","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"preview":true,"publish":false}});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@0bhc5ha",function($,jQuery,require,module){mw.user.options.set([]);});mw.loader.implement("user.tokens@0ft0puh",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.cite.a11y","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector" />
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector" type="982e9c57d71973a0930136e2-text/javascript"></script>
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" />
+<meta name="generator" content="MediaWiki 1.30.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Bitcoin Wiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="https://en.bitcoin.it/w/api.php?action=rsd" />
+<link rel="license" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Bitcoin Wiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<!--[if lt IE 9]><script src="/resources/lib/html5shiv/html5shiv.min.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Confirmation rootpage-Confirmation skin-vector action-view"> <div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+<a id="top"></a>
+<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Confirmation</h1>
+<div id="bodyContent" class="mw-body-content">
+<div id="siteSub" class="noprint">From Bitcoin Wiki</div>
+<div id="contentSub"></div>
+<div id="jump-to-nav" class="mw-jump">
+Jump to: <a href="#mw-head">navigation</a>, <a href="#p-search">search</a>
+</div>
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>After a transaction is broadcast to the Bitcoin network, it may be included in a block that is published to the network.
+When that happens it is said that the transaction has been mined at a depth of 1 block.
+With each subsequent block that is found, the number of blocks deep is increased by one.
+To be secure against <a href="/wiki/Double_spending" class="mw-redirect" title="Double spending">double spending</a>, a transaction should not be considered as <b>confirmed</b> until it is a certain number of blocks deep.
+</p><p>Note that unconfirmed transactions do not <a href="/wiki/Transaction_expiration" title="Transaction expiration">expire</a>.
+</p>
+<div id="toc" class="toc"><div class="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Number_of_Confirmations"><span class="tocnumber">1</span> <span class="toctext">Number of Confirmations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#How_Many_Confirmations_Is_Enough"><span class="tocnumber">1.1</span> <span class="toctext">How Many Confirmations Is Enough</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#Confirmation_Times"><span class="tocnumber">2</span> <span class="toctext">Confirmation Times</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#See_Also"><span class="tocnumber">3</span> <span class="toctext">See Also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<h1><span class="mw-headline" id="Number_of_Confirmations">Number of Confirmations</span></h1>
+<p>The classic bitcoin client will show a transaction as "n/unconfirmed" until the transaction is 6 blocks deep.
+Merchants and exchanges who accept <a href="/wiki/Trade" class="mw-redirect" title="Trade">bitcoins as payment</a> can and should set their own threshold as to how many blocks are required until funds are considered confirmed.
+When potential loss due to double spending as nominal, as with very inexpensive or non-fungible items, people may choose not to wait for a transaction to be confirmed, and complete the exchange as soon as it is seen on the network.
+Most <a href="/wiki/Category:Exchanges" title="Category:Exchanges">exchanges</a> and other merchants who bear the risk from double spending require 6 or more blocks.
+</p><p>There is nothing special about the default, often-cited figure of 6 blocks. It was chosen based on the assumption that an attacker is unlikely to amass more than 10% of the hashrate, and that a negligible risk of less than 0.1% is acceptable.
+Both these figures are arbitrary, however;
+6 blocks are overkill for casual attackers, and at the same time powerless against more dedicated attackers with much more than 10% hashrate.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">&#91;1&#93;</a></sup>
+</p><p>Freshly-mined coins cannot be spent for 100 blocks.
+It is advisable to wait some additional time for a better chance that the transaction will be propagated by all nodes.
+Some older bitcoin clients won't show generated coins as confirmed until they are 120 blocks deep.
+</p>
+<h2><span class="mw-headline" id="How_Many_Confirmations_Is_Enough">How Many Confirmations Is Enough</span></h2>
+<p>Transactions with 0/unconfirmed can be reversed with not too much cost via <a href="/wiki/Irreversible_Transactions#Attack_vectors" title="Irreversible Transactions">Finney attack and race attack</a>, but in some cases may still be acceptable especially for low-value goods and services, or ones which can be clawed back.
+</p><p>For transactions with confirmations, the website (<a rel="nofollow" class="external free" href="https://people.xiph.org/~greg/attack_success.html">https://people.xiph.org/~greg/attack_success.html</a>) can be used to calculate the probability of a successful doublespend given a hashrate proportion and number of confirmations. Note that in the reality of bitcoin mining today, more than 6 confirmations are required. (60 confirmations to have &lt;1% odds of succeeding against an entity with 40% hash power). See Section 11 of the (<a rel="nofollow" class="external free" href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a> bitcoin whitepaper) for the AttackerSuccessProbability formula.
+</p><p>Some mining enterprises may hide their hash power across several mining pools. Also mining <a href="/wiki/Mining#ASIC_Mining" title="Mining">ASICs</a> can be temporarily overclocked to increase their hash power. This is less power-efficient but could be used for a brief burst of hashrate. For maximum safety, it is recommended that for the irreversible sale of items with value comparable to the block reward, a large number of confirmations (144 blocks = 1 day) is required before completing the exchange.
+</p><p>See also: <a href="/wiki/Irreversible_Transactions" title="Irreversible Transactions">Irreversible Transactions</a>
+</p>
+<h1><span class="mw-headline" id="Confirmation_Times">Confirmation Times</span></h1>
+<p>Each additional confirmation is a new <a href="/wiki/Block" title="Block">block</a> being found and added to the end of the <a href="/wiki/Blockchain" class="mw-redirect" title="Blockchain">blockchain</a>.
+</p><p>Miners create blocks by solving the <a href="/wiki/Proof_of_work" title="Proof of work">proof of work</a> for their proposed block. The block interval has an average of 10 minutes but not every block interval is exactly 10 minutes. It follows a statistical process known as a <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Poisson_point_process">poisson process</a>, where random events happen with the same probability in each time interval. Another way of expressing this is that the mining process has no memory, at every second a block has the same chance of being found. Poisson processes are well-understood but can be unintuative.
+</p>
+<div class="center"><div class="floatnone"><a href="/wiki/File:Block-interval.png" class="image" title="alt text"><img alt="alt text" src="/w/images/en/d/d7/Block-interval.png" width="600" height="450" /></a></div></div>
+<p>There are lots of block intervals with a time less than 10 minutes but then a few block intervals much longer which bump up the average to 10 minutes. So the bitcoin network can get unlucky and a block won't be found for a whole hour.
+</p>
+<div class="center"><div class="floatnone"><a href="/wiki/File:Block-cumulative-interval.png" class="image" title="alt text"><img alt="alt text" src="/w/images/en/4/4a/Block-cumulative-interval.png" width="600" height="450" /></a></div></div>
+<p>In a 10 minute interval, the probability of a block being found is about 63% (or 1 - e^(-1)). So approximately two-thirds of the time a block will be found in 10 minutes or less. In 30 minutes a block has a 95% chance of being found, which rises to 99.7% if the time interval is 60 minutes.
+</p>
+<h1><span class="mw-headline" id="See_Also">See Also</span></h1>
+<ul><li> <a href="/wiki/Blocks" class="mw-redirect" title="Blocks">Blocks</a></li>
+<li> <a href="/wiki/Transaction" title="Transaction">Transaction</a></li></ul>
+<h1><span class="mw-headline" id="References">References</span></h1>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://bitcoil.co.il/Doublespend.pdf">Analysis of hashrate-based double-spending</a></span>
+</li>
+</ol></div>
+
+
+</div>
+
+</div> <div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://en.bitcoin.it/w/index.php?title=Confirmation&amp;oldid=65088">https://en.bitcoin.it/w/index.php?title=Confirmation&amp;oldid=65088</a>" </div>
+<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Technical" title="Category:Technical">Technical</a></li></ul></div></div> <div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Confirmation" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Confirmation" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Confirmation" title="View the content page [c]" accesskey="c">Page</a></span></li>
+<li id="ca-talk" class="new"><span><a href="/w/index.php?title=Talk:Confirmation&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+<h3 id="p-variants-label">
+<span>Variants</span>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li id="ca-view" class="selected"><span><a href="/wiki/Confirmation">Read</a></span></li>
+<li id="ca-viewsource"><span><a href="/w/index.php?title=Confirmation&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Confirmation&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+<h3 id="p-cactions-label"><span>More</span></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" id="searchform">
+<div id="simpleSearch">
+<input type="search" name="search" placeholder="Search Bitcoin Wiki" title="Search Bitcoin Wiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton" /> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a></div>
+<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+<h3 id='p-navigation-label'>Navigation</h3>
+<div class="body">
+<ul>
+<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-Bitcoin-FAQ"><a href="/wiki/Help:FAQ">Bitcoin FAQ</a></li><li id="n-Editing-help"><a href="/wiki/Bitcoin_Wiki:Help">Editing help</a></li><li id="n-Forums"><a href="/wiki/Forums">Forums</a></li><li id="n-Chatrooms"><a href="/wiki/IRC_channels">Chatrooms</a></li><li id="n-Recent-changes"><a href="/wiki/Special:RecentChanges">Recent changes</a></li><li id="n-Page-index"><a href="/wiki/Special:AllPages">Page index</a></li> </ul>
+</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+<h3 id='p-tb-label'>Tools</h3>
+<div class="body">
+<ul>
+<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Confirmation" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Confirmation" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/w/index.php?title=Confirmation&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/w/index.php?title=Confirmation&amp;oldid=65088" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Confirmation&amp;action=info" title="More information about this page">Page information</a></li> </ul>
+</div>
+</div>
+<div class="portal" role="navigation" id='p-Sister_projects' aria-labelledby='p-Sister_projects-label'>
+<h3 id='p-Sister_projects-label'>Sister projects</h3>
+<div class="body">
+<ul>
+<li id="n-Essays"><a href="/wiki/Bitcoin_Wiki:Essay_main_page">Essays</a></li><li id="n-Source"><a href="/wiki/Bitcoin_Wiki:Source_main_page">Source</a></li> </ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last edited on 16 March 2018, at 15:53.</li>
+<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> unless otherwise noted.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/wiki/Bitcoin_Wiki:Privacy_policy" title="Bitcoin Wiki:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Bitcoin_Wiki:About" title="Bitcoin Wiki:About">About Bitcoin Wiki</a></li>
+<li id="footer-places-disclaimer"><a href="/wiki/Bitcoin_Wiki:General_disclaimer" title="Bitcoin Wiki:General disclaimer">Disclaimers</a></li>
+</ul>
+<ul id="footer-icons" class="noprint">
+<li id="footer-poweredbyico">
+<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" /></a> </li>
+</ul>
+<div style="clear:both"></div>
+</div>
+<script type="982e9c57d71973a0930136e2-text/javascript">(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.012","walltime":"0.017","ppvisitednodes":{"value":37,"limit":1000000},"ppgeneratednodes":{"value":74,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20210107055248","ttl":86400,"transientcontent":false}}});});</script><script type="982e9c57d71973a0930136e2-text/javascript">(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":24});});</script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="982e9c57d71973a0930136e2-|49" defer=""></script></body>
+</html>

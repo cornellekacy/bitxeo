@@ -1,0 +1,74 @@
+/*!
+ * Theme Name: Default
+ * Package : DashLite
+ * Author: Softnio
+ * Author URI: http://themeforest.net/user/softnio
+ * Version	 :	1.0.0
+ * Updated	 :	02.18.2020
+**/
+
+
+.tableee{display:block}
+ .tableee:not(.centered){padding-right:5px}
+ .tableee .label{display:block;font-size:.665rem;text-transform:uppercase;color:rgba(0,0,0,.4);letter-spacing:1px}
+ .tableee .value{font-size:2.565rem;font-weight:600;font-family:HK Grotesk,-apple-system,sans-serif;letter-spacing:1px;line-height:1.2}
+ .tableee .trending,.tableee .value{display:inline-block;vertical-align:middle}
+ .tableee .trending{padding:3px 10px;border-radius:30px;font-size:.855rem;margin-left:10px}
+ .tableee .trending .os-icon{margin-left:2px;vertical-align:middle;font-size:14px}
+ .tableee .trending span{display:inline-block;vertical-align:middle}
+ .tableee .trending-up{color:#fff;background-color:#24b314}
+ .tableee .trending-down{color:#fff;background-color:#e65252}
+ .tableee .trending-up-basic{color:#24b314;padding:0}
+ .tableee .trending-down-basic{color:#e65252;padding:0}
+ .tableee.trend-in-corner{position:relative}
+ .tableee.trend-in-corner .trending{position:absolute;top:10px;right:10px;padding:2px 4px;border-radius:4px;line-height:1.2;font-size:.665rem}
+ .tableee.trend-in-corner .trending i{font-size:12px}.tableee.centered{text-align:center}
+ .tableee.centered,.tableee.centered.padded{padding-left:10px;padding-right:10px}
+ .tableee.padded{padding:5rem}
+
+ .b-r{border-right:1px solid rgba(0,0,0,.1)}
+
+ .ew_external_link {
+     margin-left:5px;
+ }
+
+ #datapicker_html {
+     display:none;
+ }
+
+ #hidden_inputs {
+     display:none;
+ }
+
+ .border-blue {
+    border: 1px solid #559bfb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.border-blue .note {
+    background-color: #e9f2ff;
+}
+
+.border-orange {
+    border: 1px solid #ffa353;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.border-orange .note {
+    background-color: #faefe5;
+}
+
+.border-red {
+    border: 1px solid #e85347;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.border-red .note {
+    background-color: #ffdfdc;
+}
