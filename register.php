@@ -55,6 +55,9 @@
                                                             </div>
                         </div>
                     </div><!-- .nk-block-head -->
+                    <?php use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception; ?>
                     <?php /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 include 'admin/conn.php';
