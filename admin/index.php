@@ -116,22 +116,28 @@
                   
                 <hr>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                        <img src="1.jpg" width="500" height="400">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                       <img src="2.jpg" width="500" height="400">  
+                    </div>
+                    <div class="col-md-4">
+                      <img src="5.jpg" width="500" height="400">  
                     </div>
                    
                 </div>
                 <hr>
                   <div class="row">
-                     <div class="col-md-6">
+                     <div class="col-md-4">
                        <img src="3.jpg" width="500" height="400"> 
                     </div>
                     
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <img src="4.jpg" width="500" height="400">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="6.jpg" width="500" height="400">
                     </div>
                    
                 </div>
