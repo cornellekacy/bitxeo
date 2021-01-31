@@ -44,8 +44,8 @@
                 <div class="nk-block nk-block-middle nk-auth-body">
                     <div class="brand-logo pb-5">
                         <a href="index.htm" class="logo-link">
-                            <img class="logo-light logo-img logo-img-lg" src="app/templates/BitcoinEscrow/images/logo-dark.png" alt="logo">
-                            <img class="logo-dark logo-img logo-img-lg" src="app/templates/BitcoinEscrow/images/logo.png" alt="logo-dark">
+                            <img class="logo-light logo-img logo-img-lg" src="logoblack1.png" alt="logo">
+                            <img class="logo-dark logo-img logo-img-lg" src="logoblack1.png" alt="logo-dark">
                         </a>
                     </div>
                     <div class="nk-block-head">
@@ -259,7 +259,7 @@ mysqli_close($link);
                         </ul><!-- .nav -->
                     </div>
                     <div class="mt-3">
-                        <p>&copy; 2020 Bitxoe. All Rights Reserved.</p>
+                        <p>&copy; 2020 Escrow for dark Web Users. All Rights Reserved.</p>
                     </div>
                 </div><!-- .nk-block -->
             </div><!-- .nk-split-content -->

@@ -25,7 +25,7 @@
     <meta name="msapplication-TileImage" content="https://bitxoe.com/app/templates/BitcoinEscrow/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffd600">
     <!-- Page Title  -->
-    <title>Login - Bitxoe</title>
+    <title>Login - Escrow for dark Web Users</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="app/templates/BitcoinEscrow/assets/css/dashlite.css?ver=1.1.0">
     <link rel="stylesheet" href="app/templates/BitcoinEscrow/assets/css/theme.css?ver=1.1.0">
@@ -44,15 +44,15 @@
                 <div class="nk-block nk-block-middle nk-auth-body">
                     <div class="brand-logo pb-5">
                         <a href="index.htm" class="logo-link">
-                            <img class="logo-light logo-img logo-img-lg" src="app/templates/BitcoinEscrow/images/logo-dark.png" alt="logo">
-                            <img class="logo-dark logo-img logo-img-lg" src="app/templates/BitcoinEscrow/images/logo.png" alt="logo-dark">
+                            <img class="logo-light logo-img logo-img-lg" src="logoblack1.png" alt="logo">
+                            <img class="logo-dark logo-img logo-img-lg" src="logoblack1.png" alt="logo-dark">
                         </a>
                     </div>
                     <div class="nk-block-head">
                         <div class="nk-block-head-content">
                             <h5 class="nk-block-title">Login</h5>
                             <div class="nk-block-des">
-                                <p>Access the <b>Bitxoe</b> using your username and password.</p>                            </div>
+                                <p>Access the <b>Escrow for dark Web Users</b> using your username and password.</p>                            </div>
                         </div>
                     </div><!-- .nk-block-head -->
                               <?php
