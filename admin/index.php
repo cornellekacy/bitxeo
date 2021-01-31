@@ -112,19 +112,7 @@
                 <!-- *************************************************************** -->
                 <!-- Start Sales Charts Section -->
                 <!-- *************************************************************** -->
-                   <div class="row">
-                    <div class="col-md-6">
-                        <div align="center">
-                          <img src="img/1.jpeg" width="300" height="100">  
-                        </div>
-                        
-                    </div>
-                     <div class="col-md-6">
-                         <div align="center">
-                        <img src="img/2.jpeg" width="300" height="100">
-                    </div>
-                    </div>
-                </div>
+                  
                 <hr>
                           <div class="row">
                     <div class="col-md-3">
@@ -145,8 +133,8 @@
                         
                     </div>
                        <div class="col-md-8">
-                        <h1 align="center">Welcome to Crypto Escrow Services LLC </h1>
-                        <p>Welcome to your dashboard. Crypto Escrow Services give you the opportunity to open a new transaction and we make you what ever goods and or services you are buying gets to you.<br><br> Only customer(those buying are allowed to start a transaction). once a transaction is started, it will be inactive untill payment is made. Once payment is made, your account will reviewed and credited and you transaction will go live.<br><br> Depending on the agreement you had with your seller, disputes are only approved when the agreed date has passed and the seller has not dilivered the goods.<br><br>
+                        <h1 align="center">Welcome to Escrow for dark Web Users </h1>
+                        <p>Welcome to your dashboard. Escrow for dark Web Users give you the opportunity to open a new transaction and we make what ever goods and or services you are buying gets to you.<br><br> Only customer(those buying are allowed to start a transaction). once a transaction is started, it will be inactive untill payment is made. Once payment is made, your account will reviewed and credited and you transaction will go live.<br><br> Depending on the agreement you had with your seller, disputes are only approved when the agreed date has passed and the seller has not dilivered the goods.<br><br>
                             Once you finalize a transaction, you cannot undo the process, once a transaction is finalized funds are immidiately sent to the seller and the transaction status is closed. If for any reason you finalize a transaction and the goods and or services are not delivered, contact us and we will follow up the issue and make sure the funds are sent back to you.
                         </p>
 

@@ -12,8 +12,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
-    <title>Crypto Escrow Services LLC- Admin Panel</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../fav1.png">
+    <title>Escrow for dark Web Users- Admin Panel</title>
     <!-- Custom CSS -->
     <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
@@ -66,7 +66,7 @@
                         <a href="index.php">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
-                                <img src="favicon.png" alt="Escrow-Giant" height="80" width="100" class="dark-logo" />
+                                <img src="../logoblack1.png" alt="Escrow-Giant" height="80" width="230" class="dark-logo" />
                                 <!-- Light Logo icon -->
                                 
                             </b>

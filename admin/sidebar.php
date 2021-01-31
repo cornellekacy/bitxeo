@@ -2,8 +2,8 @@
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar" data-sidebarbg="skin6">
                 <!-- Sidebar navigation-->
-                <nav class="sidebar-nav" style="background-image: url('img/home5-sl-img13.jpg')">
-                    <ul id="sidebarnav">
+                <nav class="sidebar-nav" style="">
+                    <ul id="sidebarnav" style="">
                         <?php $sess = $_SESSION['username'];
 
 if($sess == 'supperuser'){
