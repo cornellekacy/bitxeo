@@ -48,6 +48,7 @@ CREATE TABLE `transaction` (
   `name` varchar(255) NOT NULL ,
   `username` varchar(255) NOT NULL ,
   `country` varchar(255) NOT NULL,
+  `vendor` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `who` varchar(255) NOT NULL,
   `what` varchar(255) NOT NULL,

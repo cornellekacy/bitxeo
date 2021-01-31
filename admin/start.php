@@ -58,6 +58,7 @@ if(isset($_POST['save'])){
  $name = mysqli_real_escape_string($link,$_POST['name']);
  $username = mysqli_real_escape_string($link,$_POST['username']);
  $country = mysqli_real_escape_string($link,$_POST['country']);
+ $vendor = mysqli_real_escape_string($link,$_POST['vendor']);
  $email = mysqli_real_escape_string($link,$_POST['email']);
 
  $who = mysqli_real_escape_string($link,$_POST['who']);
@@ -104,8 +105,8 @@ else{
     $me = rand();
     $status = 'inactive';
 // Attempt insert query execution
-    $sql = "INSERT INTO transaction (trans_id,name,username,country,email,who,what,currency,price,bmethod,baddress,payfee,expected,ifnotcompleted,payment,trn_date,sellername,sellercountry,smethod,saddress,descript,status) 
-    VALUES ('$me','$name','$username','$country','$email','$who','$what','$currency','$price','$bmethod','$baddress','$fee','$expected','$ifnotcompleted','$payment','$trn_date','$sellername','$sellercountry','$smethod','$saddress','$description','$status')";
+    $sql = "INSERT INTO transaction (trans_id,name,username,country,vendor,email,who,what,currency,price,bmethod,baddress,payfee,expected,ifnotcompleted,payment,trn_date,sellername,sellercountry,smethod,saddress,descript,status) 
+    VALUES ('$me','$name','$username','$country','$vendor','$email','$who','$what','$currency','$price','$bmethod','$baddress','$fee','$expected','$ifnotcompleted','$payment','$trn_date','$sellername','$sellercountry','$smethod','$saddress','$description','$status')";
     if(mysqli_query($link, $sql)){
         echo "<div class='alert alert-success'>
         <strong>Success!</strong> Transaction Successfully Created.
@@ -245,6 +246,11 @@ mysqli_close($link);
                                     <label>Country</label>
                                         <input type="text" class="form-control"  id="maxval"
                                             aria-describedby="maxval" name="country" >
+                                    </div>
+                                     <div class="form-group">
+                                    <label>Vendors/Sellers Name</label>
+                                        <input type="text" class="form-control"  id="maxval"
+                                            aria-describedby="maxval" name="vendor" >
                                     </div>
                                       <div class="form-group">
                                     <label>Email</label>

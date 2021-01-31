@@ -112,22 +112,30 @@
                 <!-- *************************************************************** -->
                 <!-- Start Sales Charts Section -->
                 <!-- *************************************************************** -->
+                   
                   
                 <hr>
-                          <div class="row">
-                    <div class="col-md-3">
-                        
-                        
+                <div class="row">
+                    <div class="col-md-6">
+                       <img src="1.jpg" width="500" height="400">
                     </div>
-                     <div class="col-md-6">
-                         <div align="center">
-                        <img src="img/3.jpeg" width="500" height="400">
+                    <div class="col-md-6">
+                      <img src="2.jpg" width="500" height="400">  
                     </div>
-                    </div>
-                      <div class="col-md-3">
-                       
-                    </div>
+                   
                 </div>
+                <hr>
+                  <div class="row">
+                     <div class="col-md-6">
+                       <img src="3.jpg" width="500" height="400"> 
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <img src="4.jpg" width="500" height="400">
+                    </div>
+                   
+                </div>
+                    
                 <div class="row" style="background-color: #08ae8d">
                     <div class="col-md-2">
                         
