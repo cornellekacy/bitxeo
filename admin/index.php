@@ -12,7 +12,7 @@
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
-        <div class="page-wrapper">
+        <div class="page-wrapper" style="">
             <!-- ============================================================== -->
             <!-- Bread crumb and right sidebar toggle -->
             <!-- ============================================================== -->
@@ -38,7 +38,7 @@
             <!-- ============================================================== -->
             <!-- Container fluid  -->
             <!-- ============================================================== -->
-            <div class="container-fluid">
+            <div class="container-fluid" style="background-color: #9E8E8A">
                 <!-- *************************************************************** -->
                 <!-- Start First Cards -->
                 <!-- *************************************************************** -->
@@ -128,12 +128,12 @@
                        
                     </div>
                 </div>
-                <div class="row" style="background-image: url('img/home5-sl-img13.jpg')">
+                <div class="row" style="background-color: #08ae8d">
                     <div class="col-md-2">
                         
                     </div>
-                       <div class="col-md-8">
-                        <h1 align="center">Welcome to Escrow for dark Web Users </h1>
+                       <div class="col-md-8" style="color: #fff">
+                        <h1 align="center" style="color: #fff">Welcome to Escrow for dark Web Users </h1>
                         <p>Welcome to your dashboard. Escrow for dark Web Users give you the opportunity to open a new transaction and we make what ever goods and or services you are buying gets to you.<br><br> Only customer(those buying are allowed to start a transaction). once a transaction is started, it will be inactive untill payment is made. Once payment is made, your account will reviewed and credited and you transaction will go live.<br><br> Depending on the agreement you had with your seller, disputes are only approved when the agreed date has passed and the seller has not dilivered the goods.<br><br>
                             Once you finalize a transaction, you cannot undo the process, once a transaction is finalized funds are immidiately sent to the seller and the transaction status is closed. If for any reason you finalize a transaction and the goods and or services are not delivered, contact us and we will follow up the issue and make sure the funds are sent back to you.
                         </p>

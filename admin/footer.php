@@ -1,5 +1,5 @@
-           <footer class="footer text-center text-muted">
-                All Rights Reserved by Crypto Escrow Services LLC.
+           <footer class="footer text-center text-muted" >
+                All Rights Reserved by Escrow For Dark Web Users.
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

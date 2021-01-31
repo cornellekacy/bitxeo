@@ -12,7 +12,7 @@
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
-        <div class="page-wrapper">
+        <div class="page-wrapper" style="background-color: #9E8E8A">
             <!-- ============================================================== -->
             <!-- Bread crumb and right sidebar toggle -->
             <!-- ============================================================== -->
@@ -42,14 +42,14 @@
                         <div align="center">
                     <img src="bitcoin.jpg" height="200">
                     </div>
-                       <h2 align="center">Bitcoin</h2>
-                       <p>Crypto Escrow Services LLC accept bitcoin as a payment method. Bitcoin is one of the fastest growing payment method and we give a very easy way to use it for payment. Both buyers and sellers are required to use bitcoin as a payment method</p>
+                       <h2 align="center" style="color: #fff">Bitcoin</h2>
+                       <p style="color: #fff">Crypto Escrow Services LLC accept bitcoin as a payment method. Bitcoin is one of the fastest growing payment method and we give a very easy way to use it for payment. Both buyers and sellers are required to use bitcoin as a payment method</p>
                        <br><hr><br>
                            <div align="center">
                     <img src="paypal.png" height="200">
                     </div>
-                       <h2 align="center">PayPal</h2>
-                       <p>Crypto Escrow Services LLC also accepts paypal as a payment method. You can start you transaction with your paypal money. We make the payment easy swift. </p>
+                       <h2 align="center" style="color: #fff">PayPal</h2>
+                       <p style="color: #fff">Crypto Escrow Services LLC also accepts paypal as a payment method. You can start you transaction with your paypal money. We make the payment easy swift. </p>
                    </div> 
                    <div class="col-md-3">
                        

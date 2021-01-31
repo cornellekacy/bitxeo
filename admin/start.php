@@ -16,7 +16,7 @@ use PHPMailer\PHPMailer\Exception;
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
-        <div class="page-wrapper">
+        <div class="page-wrapper" style="background-color: #9E8E8A">
             <!-- ============================================================== -->
             <!-- Bread crumb and right sidebar toggle -->
             <!-- ============================================================== -->
@@ -27,7 +27,7 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="d-flex align-items-center">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb m-0 p-0">
-                                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a>
+                                    <li class="breadcrumb-item"><a href="index.html" style="color: #fff">Dashboard</a>
                                     </li>
                                 </ol>
                             </nav>

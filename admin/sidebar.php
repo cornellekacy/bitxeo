@@ -11,7 +11,7 @@ if($sess == 'supperuser'){
  <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="index.php"
                                 aria-expanded="false"><i data-feather="home" class="feather-icon"></i><span
                                     class="hide-menu">Dashboard</span></a></li>
-                                     <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="https://cryptoescrowtrades.com/"
+                                     <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="../index.html"
                                 aria-expanded="false"><i data-feather="home" class="feather-icon"></i><span
                                     class="hide-menu" target="_blank">Home Page</span></a></li>
                                     
@@ -56,7 +56,7 @@ if($sess == 'supperuser'){
  <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="index.php"
                                 aria-expanded="false"><i data-feather="home" class="feather-icon"></i><span
                                     class="hide-menu">Dashboard</span></a></li>
-                                     <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="https://cryptoescrowtrades.com/"
+                                     <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="../index.html"
                                 aria-expanded="false"><i data-feather="home" class="feather-icon"></i><span
                                     class="hide-menu" target="_blank">Home Page</span></a></li>
                         <li class="list-divider"></li>
